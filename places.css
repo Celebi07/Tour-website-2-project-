@@ -41,12 +41,24 @@ section{
   background: #eee;
 }
 
+.box-container{
+  align-items: center;
+  padding-top: 1%;
+  /* padding-bottom: 1%; */
+  height: auto;
+  width: 90%;
+  border: solid 10px transparent;
+  margin-left: 5%;
+}
+/* .blank{
+  display: none;
+} */
 .packages .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+  -ms-grid-columns: (minmax(50rem, 2fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
-  gap: 1.5rem;
+  gap: 5rem;
 }
 
 .packages .box-container .box {
@@ -73,6 +85,13 @@ section{
 .packages .box-container .box:hover .btn:hover {
   background: #fff;
   color: #10221b;
+}
+.heading{
+  /* padding-left: 35%; */
+  font-size: xx-large;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .packages .box-container .box .image {
@@ -106,8 +125,16 @@ section{
   padding: 1rem 0;
   line-height: 2;
 }
-
+/* .new{
+  margin-left: 20%;
+} */
 .packages .box-container .box .content .price {
   font-size: 2rem;
   color: #219150;
+}
+.box{
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 200px;
+  min-height: 500px;
 }

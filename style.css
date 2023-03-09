@@ -19,12 +19,16 @@ body{
     align-items: center;
     flex-direction: row;
 }
+.add{
+    margin-bottom: 2%;
+}
 
 .flex-c{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
 }
 
 .container{
@@ -33,14 +37,19 @@ body{
     background-color: #001721;
     color: #fff;
 }
-
+header{
+    margin-top: 0%;
+}
 nav{
     justify-content: space-between !important;
     width: 100%;
     height: 10vh;
     position: relative;
+    
 }
-
+main{
+    margin-top: -2.5%;
+}
 .nav-logo{
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -73,7 +82,7 @@ nav{
     width: 90%;
     height: 79vh;
     padding: 30px;
-    background-color: white;
+    background-color: lightblue;
     gap: 15px 0px;
     transform: translateX(120%);
     opacity: 0;
@@ -104,9 +113,12 @@ main{
 
 .main-img{
     display: none;
+    margin-right: 40%;
 }
 .main-img img{
-    width: 300px;
+    align-items: center;
+    width: 700px;
+    height: 500px;
 }
 
 .lg-head{
@@ -132,6 +144,7 @@ main{
 
 .btn{
     border: none;
+    margin-left: 25%;
     outline: none;
     padding: 10px 12px;
     font-size: 17px;
@@ -175,8 +188,11 @@ footer{
 
 .dev-info a{
     color: #fff;
+    margin-bottom: 200px;
 }
-
+.exp{
+    margin-left: 18%;
+}
 
 
 
@@ -193,6 +209,10 @@ footer{
     .m-head{
         font-size: 28px;
     }
+    /* .main-img{
+        display: none;
+        margin-right: 0%;
+    } */
 }
 
 @media (min-width:600px){
@@ -222,6 +242,16 @@ footer{
         flex-direction: row !important;
         justify-content: space-between !important;
     }
+    .main-img{
+        display: none;
+        margin-right: 0%;
+    }
+    .no{
+        width:0;
+        height:0;
+       color: transparent;
+    }
+    
 }
 
 @media (min-width:760px){
@@ -243,6 +273,7 @@ footer{
     .para{
         max-width: 450px;
     }
+   
 }
 
 @media (min-width:960px){
